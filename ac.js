@@ -20,21 +20,14 @@ Car.prototype.driving = function(km) {
 Car.prototype.ChangeColor = function(color) {
     if (typeof color =='String') {
         this.color =color;
-        console.log(color)
+        console.log(this.color)
      
 
     }
 }
 
 var Samochod = new Car('BMW' , 'red' , '2009' , 678);
-
-
-
-
-
-
-    
-
+        console.log(Samochod)       
 
 
 
@@ -47,4 +40,4 @@ var Samochod = new Car('BMW' , 'red' , '2009' , 678);
 //w konsoli informująca o pokonanym dystansie. Po każdorazowym przekroczenie 10,000 km dodatkowo musi zostać wyświetlona informacja o konieczności zmiany oleju
 //b) changeColor([kolor]) - metoda zmieniająca kolor na podany w argumencie. Kolor musi być Stringiem.
 //c) metody zwracające poszczególne właściwości w postaci Stringa o treści:
-"Przebiegi samochodu o marce" wynosi:
+//"Przebiegi samochodu o marce" wynosi:
